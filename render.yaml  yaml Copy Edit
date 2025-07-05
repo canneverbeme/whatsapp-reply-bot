@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: whatsapp-reply-bot
+    env: python
+    buildCommand: ""
+    startCommand: python bot.py
